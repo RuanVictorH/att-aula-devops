@@ -3,6 +3,29 @@
 # 2. 
 # 3. 
 
+'''
+Corrija a classe SistemaAcademico, responsável por calcular informações
+acadêmicas de um aluno.
+
+A classe deve possuir os seguintes métodos:
+
+1. calcular_media(notas)
+   - Recebe uma lista de notas.
+   - Retorna a média aritmética das notas.
+   - Caso a lista esteja vazia, retorna 0.
+
+2. calcular_frequencia(total_aulas, faltas)
+   - Recebe o número total de aulas e a quantidade de faltas do aluno.
+   - Calcula e retorna a frequência do aluno em porcentagem.
+
+3. verificar_aprovacao(media, frequencia)
+   - Recebe a média final e a frequência do aluno.
+   - Deve analisar se o aluno atende aos critérios mínimos de aprovação
+     definidos pela instituição.
+   - Retorna "Aprovado" quando o aluno cumpre os critérios necessários.
+   - Caso contrário, retorna "Reprovado".
+'''
+
 class SistemaAcademico:
     def calcular_media(self, notas):
         if not notas:
