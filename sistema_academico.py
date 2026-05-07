@@ -24,6 +24,8 @@ A classe deve possuir os seguintes métodos:
      definidos pela instituição.
    - Retorna "Aprovado" quando o aluno cumpre os critérios necessários.
    - Caso contrário, retorna "Reprovado".
+
+   
 '''
 
 class SistemaAcademico:
