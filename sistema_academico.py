@@ -40,4 +40,4 @@ class SistemaAcademico:
     # DICA: A frequência geralmente é representada em uma escala percentual
     def calcular_frequencia(self, total_aulas, faltas):
         presenca = (total_aulas - faltas) / total_aulas
-        return presenca * 100
+        return presenca * 10
