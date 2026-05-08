@@ -23,14 +23,14 @@ A classe deve possuir os seguintes métodos:
    - Deve analisar se o aluno atende aos critérios mínimos de aprovação
      definidos pela instituição.
    - Retorna "Aprovado" quando o aluno cumpre os critérios necessários.
-   - Caso contrário, retorna "Reprovado".
+   - Caso contrário, retorna "Reprovado"....
 '''
 
 class SistemaAcademico:
     def calcular_media(self, notas):
         if not notas:
             return 0
-        return sum(notas) / (len(notas) + 1) 
+        return sum(notas) / (len(notas) ) 
 
     def verificar_aprovacao(self, media, frequencia):
         if media > 6.0 and frequencia >= 70:
