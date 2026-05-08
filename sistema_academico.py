@@ -41,6 +41,6 @@ class SistemaAcademico:
         return presenca * 100
 
     def verificar_aprovacao(self, media, frequencia):
-        if media >= 6.0 and frequencia >= 70:
+        if media >= 6.0 and frequencia >= 75:
             return "Aprovado"
         return "Reprovado"
