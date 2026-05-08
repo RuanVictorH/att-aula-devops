@@ -23,7 +23,7 @@ A classe deve possuir os seguintes métodos:
    - Deve analisar se o aluno atende aos critérios mínimos de aprovação
      definidos pela instituição.
    - Retorna "Aprovado" quando o aluno cumpre os critérios necessários.
-   - Caso contrário, retorna "Reprovado".
+   - Caso contrário, retorna "Reprovado"....
 '''
 
 class SistemaAcademico:
